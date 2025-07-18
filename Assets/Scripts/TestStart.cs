@@ -8,6 +8,12 @@ public class TestStart : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log($"RuntimePath={Addressables.RuntimePath}\n" +
+            $"LibraryPath={Addressables.LibraryPath}\n" +
+            $"BuildPath={Addressables.BuildPath}\n" +
+            $"PlayerBuildDataPath={Addressables.PlayerBuildDataPath}\n" +
+            $"StreamingAssetsSubFolder={Addressables.StreamingAssetsSubFolder}\n" +
+            $"Addressables Version={Addressables.Version}\n");
         StartCoroutine(LoadAsset());
     }
 
