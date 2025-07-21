@@ -32,6 +32,10 @@ public class TestReference : MonoBehaviour
         {
             StartCoroutine(InstantiateAsync(asset2));
         }
+        if (GUILayout.Button("LoadUI"))
+        {
+            StartCoroutine(LoadUI());
+        }
     }
 
     IEnumerator InstantiateAsync(AssetReference reference)
@@ -40,6 +44,15 @@ public class TestReference : MonoBehaviour
         yield return op;
         GameObject go = op.Result;
         
+
+    }
+
+    IEnumerator LoadUI()
+    {
+        var op = Addressables.LoadAssetAsync<GameObject>("Assets/PublishAssets/Prefabs/UI/Panel.prefab");
+        yield return op;
+        var canvas = GameObject.FindFirstObjectByType<Canvas>();
+        var go = Instantiate(op.Result, canvas.transform);
 
     }
 }

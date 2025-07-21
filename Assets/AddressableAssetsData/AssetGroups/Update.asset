@@ -10,23 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: Update
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
-  m_GUID: 826416dca1d81dd4daf0387d3f9201d2
+  m_GroupName: Update
+  m_GUID: 94dab6d1fc3102748947b1053550f1a7
   m_SerializeEntries:
-  - m_GUID: 26a4ca0a25d4a8c43bc54018f8ff3a6c
-    m_Address: Assets/PublishAssets/Prefabs/Cube.prefab
+  - m_GUID: 029fd288c0461184d9fee2dc2e9a6404
+    m_Address: Assets/PublishAssets/Prefabs/UI/Panel.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c349e3f95ba599d49be442d5392cdffa
-    m_Address: Assets/PublishAssets/Prefabs/Sphere.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d19485ec59afd0441935df96402910df
-    m_Address: Assets/PublishAssets/Prefabs/LocalCube.prefab
+  - m_GUID: a0b61a639b09c6f4e9333d211ce06c59
+    m_Address: Assets/PublishAssets/Prefabs/TestReference.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -34,5 +29,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 73e119987339c9a4ab857b3680bd51f9, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 342bc05e57e8e6d47903e979cf3567e1, type: 2}
-    - {fileID: 11400000, guid: 9e12a99f199d45f48b28f842e6fa3831, type: 2}
+    - {fileID: 11400000, guid: 56b9c77074fab8d48893e2707bb5a694, type: 2}
+    - {fileID: 11400000, guid: 0d18876df768687408f45f5cb61f02c4, type: 2}

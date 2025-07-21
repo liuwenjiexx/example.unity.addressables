@@ -15,11 +15,11 @@ MonoBehaviour:
   m_DefaultGroup: 826416dca1d81dd4daf0387d3f9201d2
   m_currentHash:
     serializedVersion: 2
-    Hash: 270d50254181de5634873fdc8fb912cf
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
-  m_DisableCatalogUpdateOnStart: 0
+  m_DisableCatalogUpdateOnStart: 1
   m_InternalIdNamingMode: 0
   m_InternalBundleIdMode: 1
   m_AssetLoadMode: 0
@@ -50,16 +50,17 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 378a7a97cb7adef4d9df1b5645be6c0e
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: bda8cc345dbcdf0438e5c57699fbb7ca
   m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
-  m_BuildAddressablesWithPlayerBuild: 0
+  m_BuildAddressablesWithPlayerBuild: 2
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
   - {fileID: 11400000, guid: a3ded6bc82861df41a6d70cd2b50c770, type: 2}
+  - {fileID: 11400000, guid: 2f2d0a9dd1c9539479c61da1b3c32917, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
     m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
@@ -78,21 +79,7 @@ MonoBehaviour:
       - m_Id: b0a65cded2d3b1b48a3e5438a1832b3b
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: bda8cc345dbcdf0438e5c57699fbb7ca
-        m_Value: <undefined>
-    - m_InheritedParent: 
-      m_Id: 6339bd4aea606944a96e6e2d075f35f1
-      m_ProfileName: Remote
-      m_Values:
-      - m_Id: 378a7a97cb7adef4d9df1b5645be6c0e
-        m_Value: 'ServerData/[BuildTarget]'
-      - m_Id: 5404d5603e2c77a46bd90294fcb3bc32
-        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
-      - m_Id: a4c26dcdb6aa1b940889952e0bb8604d
-        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
-      - m_Id: b0a65cded2d3b1b48a3e5438a1832b3b
-        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
-      - m_Id: bda8cc345dbcdf0438e5c57699fbb7ca
-        m_Value: http://localhost/AssetBundles
+        m_Value: http://192.168.32.77/AssetBundles/Android
     m_ProfileEntryNames:
     - m_Id: 378a7a97cb7adef4d9df1b5645be6c0e
       m_Name: Remote.BuildPath
@@ -125,4 +112,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 73c0ab46239227d429bcece759f8ced5, type: 2}
   - {fileID: 11400000, guid: def008c907f6095409c2564285194175, type: 2}
   - {fileID: 11400000, guid: e5c694ab769d6284bbec559dea5723de, type: 2}
-  m_ActiveProfileId: 6339bd4aea606944a96e6e2d075f35f1
+  m_ActiveProfileId: 743724ffca384594386d7526d9304d62
