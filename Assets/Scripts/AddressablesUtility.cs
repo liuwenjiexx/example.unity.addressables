@@ -11,7 +11,7 @@ public static class AddressablesUtility
 {
 
 
-    public static async Task InitializeAssets()
+    public static async Task InitializeAddressables()
     {
         var op = Addressables.InitializeAsync(false);
         try

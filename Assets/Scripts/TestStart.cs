@@ -1,15 +1,19 @@
 using System.Collections;
+using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using Debug = UnityEngine.Debug;
 
 public class TestStart : MonoBehaviour
 {
-    string remoteCatalogUrl = "http://192.168.32.77/AssetBundles/Android/catalog_0.1.json";
+    string remoteCatalogUrl = "http://192.168.32.77/AssetBundles/Android/catalog_0.1.bin";
 
     // Start is called before the first frame update
     async void Start()
     {
-        await AddressablesUtility.InitializeAssets();
+        await AddressablesUtility.InitializeAddressables();
 
         Debug.Log($"RuntimePath={Addressables.RuntimePath}\n" +
             $"LibraryPath={Addressables.LibraryPath}\n" +
@@ -53,4 +57,7 @@ public class TestStart : MonoBehaviour
     {
 
     }
+
+
+
 }
