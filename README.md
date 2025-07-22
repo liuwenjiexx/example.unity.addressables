@@ -18,7 +18,7 @@
 
 打开 `Settings` 窗口, 菜单 `Windows/Asset Management/Addressables/Settings` 
 
-![settings](Documentation~\images\settings.jpg)
+![settings](Documentation~/images/settings.jpg)
 
 - `Build & Load Paths` 选择 `Remote`
 
@@ -34,11 +34,11 @@
 
 1. 打开 `Groups` 窗口, 菜单 `Windows/Asset Management/Addressables/Groups` 
 
-   ![groups](Documentation~\images\groups.jpg)
+   ![groups](Documentation~/images/groups.jpg)
 
 2. 选择 `Default Local Group` 和 `Update` 组
 
-   ![group-local](Documentation~\images\group-local.jpg)
+   ![group-local](Documentation~/images/group-local.jpg)
 
 3. `Build & Load Paths` 选择 `Local`
 
@@ -56,7 +56,7 @@
 
 5. `File/Build Settings` 点击 Build 按钮构建安装包
 
-   ![build](Documentation~\images\build.jpg)
+   ![build](Documentation~/images/build.jpg)
 
 6. 运行游戏
 
@@ -64,7 +64,7 @@
 
 1. 修改 `Assets/PublishAssets/Prefabs/TestReference.prefab` `TestText/text` 字段递增版本号, 用于测试更新变化
 
-   ![hotupdate-test](Documentation~\images\hotupdate-test.jpg)
+   ![hotupdate-test](Documentation~/images/hotupdate-test.jpg)
 
 2. 打开 `Groups` 窗口, 菜单 `Windows/Asset Management/Addressables/Groups` 
 
@@ -72,11 +72,11 @@
 
 4. `Build & Load Paths` 切换为 `Remote`
 
-   ![group-remote](Documentation~\images\group-remote.png)
+   ![group-remote](Documentation~/images/group-remote.png)
 
 5. `Build/New Build/Default Build Script` 生成资源, 资源输出位置 `ServerData\Android`
 
-   ![build-export-server-data](Documentation~\images\build-export-server-data.png)
+   ![build-export-server-data](Documentation~/images/build-export-server-data.png)
 
 6. 复制 `ServerData\Android` 到资源服务器 `http://<ServerIP>/AssetBundles/Android`
 
