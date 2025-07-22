@@ -1,0 +1,13 @@
+*.csproj
+*.sln
+Logs/
+obj/
+.vs/
+.vsconfig
+Temp/
+/UserSettings
+Build/
+.utmp/
+**/Packages/packages-lock.json
+**/Packages/com.unity.addressables*
+ServerData/
