@@ -44,6 +44,8 @@
 
    资源输出位置 `Library\com.unity.addressables\aa`
 
+   构建安装包时选择 `Local`, 会生成资源到 `SteamingAssets` 目录, `Remote` 不会生成到 `SteamingAssets` 目录
+
 4. 资源复制到到安装包里 `SteamingAssets` 目录
 
    - 自动复制(默认)
